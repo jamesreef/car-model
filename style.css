@@ -1,0 +1,97 @@
+.car_body {
+    position: relative;
+    display: block;
+    background-color: black;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    top: 150px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.a_head {
+    position: relative;
+    display: block;
+    background-color: green;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    top: 190px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;    
+}
+
+.l_eye {
+    z-index: 2;
+    position: relative;
+    display: block;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    top: 300px;
+    margin-left: 500px;
+    border-radius: 50px;
+}
+
+.r_eye {
+    z-index: 2;
+    position: relative;
+    display: block;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    top: 335px;
+    margin-left: 725px;
+    border-radius: 50px;
+}
+
+.l_tire {
+    position: relative;
+    display: block;
+    background-color: black;
+    width: 75px;
+    height: 100px;
+    margin-left: 400px;
+    top: 210px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.r_tire {
+    position: relative;
+    display: block;
+    background-color: black;
+    width: 75px;
+    height: 100px;
+    margin-left: 20px;
+    top: 110px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.l_light {
+    z-index: 2;
+    position: relative;
+    display: block;
+    background-color: yellow;
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+    top: -125px;
+    border-radius: 50px;
+}
+
+.r_light {
+    z-index: 2;
+    position: relative;
+    display: block;
+    background-color: yellow;
+    width: 75px;
+    height: 75px;
+    margin-left: 400px;
+    top: -200px;
+    border-radius: 50px;
+}
